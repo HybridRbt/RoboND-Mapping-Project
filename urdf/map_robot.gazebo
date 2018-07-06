@@ -42,7 +42,7 @@
                 <alwaysOn>true</alwaysOn>
                 <updateRate>10.0</updateRate>
                 <cameraName>map_robot/kinect_camera</cameraName>
-                <frameName>camera_rgbd_frame</frameName>
+                <frameName>camera</frameName>
                 <imageTopicName>map_robot/kinect_camera/rgb/image_raw</imageTopicName>
                 <depthImageTopicName>map_robot/kinect_camera/depth/image_raw</depthImageTopicName>
                 <pointCloudTopicName>map_robot/kinect_camera/depth/points</pointCloudTopicName>
