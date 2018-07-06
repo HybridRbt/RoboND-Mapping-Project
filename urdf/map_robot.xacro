@@ -1,8 +1,8 @@
 <?xml version='1.0'?>
 
-<robot name="roborock" xmlns:xacro="http://www.ros.org/wiki/xacro">
+<robot name="map_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-    <xacro:include filename="$(find roborock)/urdf/roborock.gazebo"/>
+    <xacro:include filename="$(find map_robot)/urdf/map_robot.gazebo"/>
 
     <material name="light_blue">
         <color rgba="0 170 255 1"/>
@@ -188,7 +188,7 @@
         <visual name='hokuyo_visual'>
             <origin xyz="0.0 0 0" rpy=" 0 0 0"/>
             <geometry>
-                <mesh filename="package://roborock/meshes/hokuyo.dae"/>
+                <mesh filename="package://map_robot/meshes/hokuyo.dae"/>
             </geometry>
         </visual>
     </link>

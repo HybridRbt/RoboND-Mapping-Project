@@ -91,7 +91,7 @@
                 </noise>
             </ray>
             <plugin name="gazebo_ros_head_hokuyo_controller" filename="libgazebo_ros_laser.so">
-                <topicName>/roborock/laser/scan</topicName>
+                <topicName>/map_robot/laser/scan</topicName>
                 <frameName>hokuyo</frameName>
             </plugin>
         </sensor>
