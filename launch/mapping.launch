@@ -19,10 +19,10 @@
             <param name="subscribe_scan" type="bool" value="true"/>
 
             <!-- RTAB-Map Inputs -->
-            <remap from="scan" to="/scan"/>
-            <remap from="rgb/image" to="$(arg rgb_topic)"/>
-            <remap from="depth/image" to="$(arg depth_topic)"/>
-            <remap from="rgb/camera_info" to="$(arg camera_info_topic)"/>
+            <remap from="/map_robot/laser/scan" to="/scan"/>
+            <remap from="/map_robot/camera/rgb/image_raw" to="$(arg rgb_topic)"/>
+            <remap from="/map_robot/camera/depth/image_raw" to="$(arg depth_topic)"/>
+            <remap from="/map_robot/camera/rgb/camera_info" to="$(arg camera_info_topic)"/>
 
             <!-- RTAB-Map Output -->
             <remap from="grid_map" to="/map"/>
