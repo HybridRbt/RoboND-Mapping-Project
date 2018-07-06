@@ -13,7 +13,7 @@
             <commandTopic>cmd_vel_mux/input/teleop</commandTopic>
             <odometryTopic>odom</odometryTopic>
             <odometryFrame>odom</odometryFrame>
-            <robotBaseFrame>robot_footprint</robotBaseFrame>
+            <robotBaseFrame>base_footprint</robotBaseFrame>
         </plugin>
     </gazebo>
 

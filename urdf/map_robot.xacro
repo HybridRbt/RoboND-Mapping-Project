@@ -16,11 +16,11 @@
         <color rgba="255 255 204 1"/>
     </material>
 
-    <link name="robot_footprint"></link>
+    <link name="base_footprint"></link>
 
-    <joint name="robot_footprint_joint" type="fixed">
+    <joint name="base_footprint_joint" type="fixed">
         <origin xyz="0 0 0" rpy="0 0 0"/>
-        <parent link="robot_footprint"/>
+        <parent link="base_footprint"/>
         <child link="chassis"/>
     </joint>
 
