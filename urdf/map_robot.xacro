@@ -167,7 +167,7 @@
 
     <joint type="fixed" name="camera_joint">
         <origin xyz="0.21 0 0" rpy="${-pi/2} 0 ${-pi/2}"/>
-        <child link="camera"/>
+        <child link="camera_link"/>
         <parent link="chassis"/>
     </joint>
 
