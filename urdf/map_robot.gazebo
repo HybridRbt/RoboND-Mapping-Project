@@ -43,7 +43,7 @@
                 <updateRate>10.0</updateRate>
 
                 <cameraName>/map_robot/camera</cameraName>
-                <frameName>/map_robot/camera_rgbd_frame</frameName>
+                <frameName>/map_robot/camera</frameName>
 
                 <cameraInfoTopicName>rgb/camera_info</cameraInfoTopicName>
                 <imageTopicName>rgb/image_raw</imageTopicName>
