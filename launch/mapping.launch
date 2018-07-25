@@ -21,7 +21,7 @@
             <param name="wait_for_transform_duration" type="double" value="0.2"/>
 
             <!-- RTAB-Map Inputs -->
-            <remap from="scan" to="/map_robot/laser/scan"/>
+            <remap from="scan" to="/scan"/>
             <remap from="rgb/image" to="$(arg rgb_topic)"/>
             <remap from="depth/image" to="$(arg depth_topic)"/>
             <remap from="rgb/camera_info" to="$(arg camera_info_topic)"/>
