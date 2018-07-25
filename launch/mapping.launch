@@ -49,9 +49,10 @@
             <!-- Loop Closure Constraint -->
             <!-- 0=Visual, 1=ICP (1 requires scan)-->
             <param name="Reg/Strategy" type="string" value="1"/>
+            <param name="LccIcp/Type" type="string" value="2"/> <!-- 0=No ICP, 1=ICP 3D, 2=ICP 2D -->
 
             <!-- Minimum visual inliers to accept loop closure -->
-            <param name="Vis/MinInliers" type="string" value="15"/>
+            <param name="Vis/MinInliers" type="string" value="10"/>
 
             <!-- Set to false to avoid saving data when robot is not moving -->
             <param name="Mem/NotLinkedNodesKept" type="string" value="false"/>
